@@ -1,0 +1,52 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    gap: 3rem;
+}
+
+.view_navblock {
+    background: white;
+
+    padding: 2rem;
+
+    border: 3px solid #5A189A;
+
+    cursor: default;
+    position: relative;
+}
+
+.view_navblock_button_container {
+    display: flex;
+    gap: 1rem;
+
+    margin-top: 2rem;
+}
+
+.view_title {
+    font-size: 4em;
+    color: #3C096C;
+    cursor: default;
+}
+
+.view_button {
+    font-size: 1em;
+    color: #5A189A;
+    background-color: white;
+    border-color: #5A189A;
+    border-style: solid;
+    height: 4rem;
+    width: 10rem;
+    cursor: pointer;
+}
+
+.view_button:hover {
+    background-color: #5A189A;
+    color: white;
+    transform: translateY(-7px);
+    -webkit-box-shadow: 10px 10px 0px 0px #E0AAFF; 
+    box-shadow: 10px 10px 0px 0px #E0AAFF;
+}
