@@ -2,7 +2,7 @@ import styles from "./Resume.module.css";
 
 export default function Resume() {
   return (
-    <div className={styles.about}>
+    <div className={styles.resume}>
       <div className={styles.page_title}>MY_RESUME</div>
       <div className={styles.download_container}>
         <a

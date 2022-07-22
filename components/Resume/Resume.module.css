@@ -1,4 +1,4 @@
-.about {
+.resume {
     flex: 1;
     height: 95vh;
     overflow-y: scroll;
@@ -44,6 +44,12 @@
     box-shadow: 10px 10px 0px 0px #E0AAFF;
 }
 
+@media (max-width: 1650px) {
+    .resume {
+        padding-bottom: 4rem;
+    }
+}
+
 @media (max-width: 805px) {
     .page_title {
         font-size: 2em;
@@ -52,10 +58,16 @@
         font-size: 1.5em;
         padding: 1rem;
     }
+    .resume {
+        padding-bottom: 3rem;
+    }
 }
 
 @media (max-width: 550px) {
     .page_title {
         font-size: 1.5em;
+    }
+    .resume {
+        padding-bottom: 3rem;
     }
 }

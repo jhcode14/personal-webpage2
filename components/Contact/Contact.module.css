@@ -54,6 +54,9 @@
         font-size: 1.75em;
         padding: 1rem;
     }
+    .contact {
+        padding-bottom: 2rem;
+    }
 }
 
 @media (max-width: 805px) {
@@ -64,10 +67,16 @@
         font-size: 1.5em;
         padding: 1rem;
     }
+    .contact {
+        padding-bottom: 2rem;
+    }
 }
 
 @media (max-width: 550px) {
     .page_title {
         font-size: 1.5em;
+    }
+    .contact {
+        padding-bottom: 2rem;
     }
 }
