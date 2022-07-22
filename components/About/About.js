@@ -16,7 +16,7 @@ export default function About() {
           team-oriented person. In my spare time, I enjoy playing guitar and
           online games with friends. I also enjoy photography and running (I
           look forward to running a half-marathon in the near future!). I like
-          to try new food and meet new people, so feel free to reach out! You
+          to try new food and meet new people, so feel free to reach out. You
           can reach me through the social websites below!
         </p>
       </div>
