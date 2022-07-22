@@ -35,7 +35,7 @@ export default function View({ userData }) {
 
   useEffect(() => {
     handlePageRender();
-  }, [visiblePage]);
+  });
 
   const handlePageButton = (e) => {
     setVisiblePage(e.target.value);

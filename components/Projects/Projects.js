@@ -9,7 +9,7 @@ export default function Projects() {
           Heart Disease Machine Learning Detection
         </h1>
         <p className={styles.project_desc}>
-          This project is part of UCSD's Spring 2022 COGS 118A Supervised
+          This project is part of UCSD&apos;s Spring 2022 COGS 118A Supervised
           Machine Learning Course. I worked with 4 other members to search for
           ways to better understand the correlation between heart disease and
           common traits and find ways to predict if a patient potentially will
@@ -30,11 +30,12 @@ export default function Projects() {
         <h1 className={styles.project_title}>Type 1 Diabetic Care Directive</h1>
         <p className={styles.project_desc}>
           This project is part of UCSD Diabetes Design Initiative and UCSD
-          Design Lab's Type 1 Diabetic Care Directive's Fall 2021 Sprint. As a
-          frontend developer, I worked with other UCSD Designers and Developers
-          to create a website prototype for Type 1 Diabetic Patients to easily
-          provide lifesaving informations to medical team during
-          life-threatening emergency. Tools: JavaScript/CSS/HTML, React.JS, Antd
+          Design Lab&apos;s Type 1 Diabetic Care Directive&apos;s Fall 2021
+          Sprint. As a frontend developer, I worked with other UCSD Designers
+          and Developers to create a website prototype for Type 1 Diabetic
+          Patients to easily provide lifesaving informations to medical team
+          during life-threatening emergency. Tools: JavaScript/CSS/HTML,
+          React.JS, Antd
         </p>
         <a
           href="https://github.com/jhcode14/t1d-fall2021"
