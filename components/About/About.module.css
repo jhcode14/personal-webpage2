@@ -1,7 +1,6 @@
 .about {
     flex: 1;
-    height: 95%;
-    width: 755px;
+    height: 95vh;
     overflow-y: scroll;
     border: 3px solid #5A189A;
     background-color: white;
@@ -11,19 +10,51 @@
 }
 
 .page_title {
+    font-family: 'ibm-plex-mono',sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 3em;
     padding: 2rem;
 }
 
-.self_image {
+.about_content {
     display: flex;
-    align-self: center;
-    justify-content: center;
-    padding: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
     gap: 1rem;
     flex: 1;
 }
 
+.self_image{
+    width: 200px;
+    height: 400px;
+}
+
 .self_desc {
+    font-family: 'ibm-plex-mono',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     flex: 1;
+}
+
+@media (max-width: 805px) {
+    .page_title {
+        font-size: 2em;
+    }
+    .self_image{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 550px) {
+    .page_title {
+        font-size: 1.5em;
+    }
+    .self_desc {
+        font-size: 0.75em;
+    }
+    .self_image{
+        flex-direction: column;
+    }
 }

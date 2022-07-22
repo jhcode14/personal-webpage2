@@ -6,8 +6,7 @@ export default function About() {
   return (
     <div className={styles.about}>
       <div className={styles.page_title}>ABOUT_ME</div>
-      <div className={styles.self_image}>
-        <Image src={SelfImage} width={500} height={650} />
+      <div className={styles.about_content}>
         <p className={styles.self_desc}>
           Hi, I'm Jason. I am currently studying at UC San Diego, pursuing B.S.
           in Machine Learning and a minor in Computer Science. I am currently a

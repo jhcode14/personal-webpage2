@@ -1,7 +1,6 @@
 .about {
     flex: 1;
     height: 95vh;
-    width: 755px;
     overflow-y: scroll;
     border: 3px solid #5A189A;
     background-color: white;
@@ -11,6 +10,9 @@
 }
 
 .page_title {
+    font-family: 'ibm-plex-mono',sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 3em;
     padding: 2rem;
 }
@@ -28,6 +30,9 @@
     padding: 2rem;
     text-align: center;
     text-decoration: none;
+    font-family: 'ibm-plex-mono',sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 2em;
 }
 
@@ -37,4 +42,20 @@
     transform: translateY(-7px);
     -webkit-box-shadow: 10px 10px 0px 0px #E0AAFF; 
     box-shadow: 10px 10px 0px 0px #E0AAFF;
+}
+
+@media (max-width: 805px) {
+    .page_title {
+        font-size: 2em;
+    }
+    .download_button {
+        font-size: 1.5em;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .page_title {
+        font-size: 1.5em;
+    }
 }

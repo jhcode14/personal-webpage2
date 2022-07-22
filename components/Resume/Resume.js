@@ -10,7 +10,7 @@ export default function Resume() {
           href="/Jason_Hsu_Resume.pdf"
           download
         >
-          Resume (PDF)
+          RESUME.PDF
         </a>
       </div>
     </div>
