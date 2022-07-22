@@ -1,8 +1,7 @@
 .about {
-    flex-basis: 100%;
+    flex: 1;
     height: 95vh;
-    width: 100%;
-    margin: 2vh;
+    width: 755px;
     overflow-y: scroll;
     border: 3px solid #5A189A;
     background-color: white;
