@@ -105,7 +105,11 @@ export default function View({ userData }) {
           <div className={styles.view_apiblock}>
             <div className={styles.apiblock_title}>QUERY_USER</div>
             <div className={styles.apiblock_data}>
-              <JSONTree data={userData} theme={theme} invertTheme={true} />
+              <JSONTree
+                data={userData.apiData.data}
+                theme={theme}
+                invertTheme={true}
+              />
             </div>
           </div>
         </div>
