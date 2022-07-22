@@ -1,5 +1,4 @@
 import { useCallback } from "react";
-import axios from "axios";
 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";

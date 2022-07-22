@@ -1,6 +1,4 @@
 import styles from "./About.module.css";
-import Image from "next/image";
-import SelfImage from "../../public/self.jpg";
 
 export default function About() {
   return (
