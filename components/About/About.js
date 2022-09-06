@@ -11,7 +11,7 @@ export default function About() {
           currently a full-time SWE Intern working at Viasat for the Summer of
           2022. Before transferring to UC San Diego, I studied at UC Riverside.
           Through working at an emergency department, researching at UCR School
-          of Medicine stroke lab, and volunteering at the local community. I
+          of Medicine stroke lab, and volunteering at the local community, I
           learned to manage time wisely, deal with unexpected problems and be a
           team-oriented person. In my spare time, I enjoy playing guitar and
           online games with friends. I also enjoy photography and running (I
